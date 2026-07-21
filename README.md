@@ -23,3 +23,11 @@
 
 ```bash
 curl -sL https://raw.githubusercontent.com/corsar-dred/mtproto-installer/main/deploy_mtproto.sh https://raw.githubusercontent.com/corsar-dred/mtproto-installer/main/deploy_mtproto.sh -o deploy_mtproto.sh && chmod +x deploy_mtproto.sh && ./deploy_mtproto.sh
+
+---
+
+## Второй вариант с добавлением выбора сервера SNI и выводом ссылки MTProto для IPhone
+
+```bash
+curl -sL https://raw.githubusercontent.com/corsar-dred/mtproto-installer/main/deploy_mtproto-1.sh -o deploy_mtproto-1.sh && chmod +x deploy_mtproto-1.sh && ./deploy_mtproto-1.sh
+
