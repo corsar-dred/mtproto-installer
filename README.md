@@ -22,4 +22,4 @@
 Вам не нужно вручную скачивать или создавать файлы. Просто подключитесь к вашему серверу под учётной записью `root` и запустите команду установки в одну строчку:
 
 ```bash
-curl -sL [https://raw.githubusercontent.com/corsar-dred/mtproto-installer/main/deploy_mtproto.sh](https://raw.githubusercontent.com/corsar-dred/mtproto-installer/main/deploy_mtproto.sh) -o deploy_mtproto.sh && chmod +x deploy_mtproto.sh && ./deploy_mtproto.sh
+curl -sL https://raw.githubusercontent.com/corsar-dred/mtproto-installer/main/deploy_mtproto.sh https://raw.githubusercontent.com/corsar-dred/mtproto-installer/main/deploy_mtproto.sh -o deploy_mtproto.sh && chmod +x deploy_mtproto.sh && ./deploy_mtproto.sh
